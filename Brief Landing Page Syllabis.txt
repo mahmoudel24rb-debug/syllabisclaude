@@ -1,0 +1,193 @@
+Brief Landing Page Syllabis
+
+Ce que fait Syllabis en une phrase
+
+Syllabis transforme un référentiel de certification (PDF) en formation e-learning complète — structure, contenu interactif, vidéos, quiz — en quelques minutes grâce à l'IA.
+
+
+
+Les 6 piliers de la landing page
+
+1. Génération IA complète — "Du PDF au cours en 3 clics"
+
+Upload d'un référentiel RNCP (TP, BTS, CAP, CQP, BPJEPS) en PDF
+L'IA analyse le document et détecte automatiquement : type de certification, blocs de compétences, modules, heures, prérequis, RNCP ID
+Génération de toute la hiérarchie pédagogique : Formation → Blocs → Modules → Séquences → Séances → Architecture → Contenu
+Preview avant validation — feedback loop : l'utilisateur peut régénérer avec des instructions
+Mode "from scratch" aussi : décrire la formation en quelques lignes et l'IA génère tout
+Modèles IA : plusieurs modèles entrainés pour la génération de cours
+
+2. Éditeur de contenu avec 39+ blocs interactifs
+
+Éditeur BlockNote intégré (type Notion) avec :
+
+Quiz interactifs : QCM, Vrai/Faux, Texte à trou, Drag & Drop, Tri, Scénario branching, Hotspot image
+Médias riches : Vidéo, Audio, Images IA, Code, Embed, Podcast
+Blocs pédagogiques : Objectifs, Définitions, Citations, Callout, Alertes, Timeline, Steps, Accordion, Tabs, Flashcards
+Visualisation : Mind Map, Tableaux de données, Diagrammes annotés, Infographies, Comparaisons
+Système de thèmes : 10+ presets + création de thèmes custom (couleurs, typographies)
+Autosave en temps réel
+Mode preview instantané
+Slash commands (/) pour insérer des blocs rapidement
+
+3. Intégration NotebookLM — Génération média automatique
+
+À partir du contenu pédagogique, génère automatiquement :
+
+Vidéos explicatives (format Explainer ou Tutorial)
+Podcasts audio (format Deep Dive ou Briefing)
+Quiz IA avec niveaux de difficulté (Facile/Moyen/Difficile)
+Flashcards pour la révision espacée
+Mind Maps visuelles
+Infographies et tableaux de données
+Pipeline asynchrone avec suivi de progression
+
+4. Export SCORM — Déploiement LMS universel
+
+Export SCORM 1.2 & 2004 compatible avec tous les LMS (Moodle, Blackboard, Canvas, Docebo, TalentLMS, iSpring...)
+Player React moderne embarqué dans le package (pas du HTML statique basique)
+Tracking complet : score, complétion, temps passé, réponses aux quiz
+Navigation par chapitres avec sidebar
+Tokens SCORM avec expiration pour le partage de liens directs aux apprenants
+
+5. Pilotage & Planning
+
+Vue calendrier : drag-drop des séances dans le planning, gestion des dates/horaires
+Vue tableau : édition inline (titre, heures, format, semaine, formateur, type)
+Assignment de formateurs par niveau hiérarchique (bloc → module → séquence → séance)
+Export Excel professionnel 7 onglets (Résumé avec thumbnail, Arborescence complète, Blocs, Modules, Séquences, Séances, Synthèse avec répartition par format)
+Suivi des incohérences d'heures (alerte quand parent ≠ somme enfants)
+Dashboard formation : KPI, progression par bloc, répartition présentiel/distanciel/e-learning/autonomie
+
+6. Multi-tenant & Enterprise
+
+Organisations : création d'orgs clients avec branding custom (logo, couleur primaire)
+5 rôles : Owner, Admin, Concepteur, Formateur, Lecture seule
+Branch access : un formateur peut être assigné à une branche spécifique (ex: uniquement le Module 3)
+Cost tracking : suivi des coûts IA par formation, par utilisateur, par modèle, par jour
+Analytics : dashboard global, dashboard par formation, historique des générations
+Emails transactionnels : invitations, bienvenue, reset password, partage de formation
+
+
+
+Chiffres clés à afficher
+
+Métrique
+
+Valeur
+
+Blocs éditeur interactifs
+
+39+
+
+Types de certification supportés
+
+6 (TP, BTS, CAP, CQP, BPJEPS, Custom)
+
+Routes API backend
+
+227+
+
+Rôles utilisateur
+
+5
+
+Onglets export Excel
+
+7
+
+Formats SCORM
+
+2 (1.2 & 2004)
+
+Modèles IA
+
+4 
+
+Types de média générés
+
+7 (Vidéo, Audio, Quiz, Flashcards, Mind Map, Infographie, Tableau)
+
+
+
+Personas cibles pour la landing
+
+Organisme de formation (OF) — 50-200 formations/an, besoin d'industrialiser la production de contenu
+Formateur indépendant — créer des formations certifiantes sans équipe, gagner du temps
+Entreprise avec centre de formation interne — digitaliser la formation des collaborateurs
+EdTech / Startup — plateforme multi-tenant pour proposer du contenu e-learning à leurs clients
+
+
+
+Parcours utilisateur type (flow pour la landing)
+
+
+
+Plain Text
+
+
+
+1. Upload du référentiel PDF (ou description texte)
+   ↓ 3 secondes
+2. L'IA analyse et propose la structure (blocs, modules, heures)
+   ↓ validation en 1 clic
+3. Génération du contenu complet (séances, architectures)
+   ↓ 2-5 minutes
+4. Édition dans l'éditeur 39 blocs (quiz, vidéos, exercices)
+   ↓ personnalisation
+5. Export SCORM → déploiement sur le LMS
+   OU Planning → assignation formateurs → calendrier
+
+
+
+
+
+Différenciation vs concurrence
+
+Concurrent
+
+Ce qu'il fait
+
+Ce que Syllabis fait en plus
+
+360Learning
+
+LMS collaboratif
+
+Génération IA du contenu, pas juste hébergement
+
+Teachizy
+
+Création de formations en ligne
+
+Pas d'analyse PDF RNCP, pas de 39 blocs interactifs
+
+Digiforma
+
+Gestion administrative des OF
+
+Pas de contenu e-learning, pas d'IA
+
+Articulate/iSpring
+
+Authoring SCORM
+
+Pas d'IA, pas d'analyse de référentiels, pas multi-tenant
+
+EasyGenerator
+
+Création de cours e-learning
+
+Pas d'analyse RNCP, pas de pipeline IA complète
+
+USP Syllabis : La seule plateforme qui part du référentiel officiel (RNCP) et génère une formation complète (structure + contenu + quiz + médias) prête à déployer sur n'importe quel LMS, le tout piloté par l'IA.
+
+
+
+Ton & positionnement recommandé
+
+Professionnel mais accessible — pas de jargon EdTech inutile
+Orienté résultat — "De 3 semaines à 3 minutes" pour créer une formation
+Crédibilité institutionnelle — mentionner RNCP, France Compétences, Qualiopi
+Technologie visible — montrer l'éditeur, les blocs, l'export SCORM
+Social proof — si dispo : nombre de formations générées, nombre d'OF utilisateurs
